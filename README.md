@@ -9,25 +9,6 @@ Um dashboard interativo construído com Streamlit para análise de dados de vare
 -   **Outros Gráficos:** Apresenta gráficos adicionais como total de vendas por data do pedido e a média de vendas por segmento ao longo do tempo.
 -   **Relatório de Dados:** Gera um relatório de perfil de dados em tempo real, exibindo informações estatísticas, estatísticas descritivas e contagens de valores ausentes.
 
-## 📁 Estrutura do Projeto
----
-
-## 🚀 Estrutura
-
-├── app.py
-├── data/
-│   └── dataset.csv
-├── src/
-│   ├── analysis.py
-│   ├── data_loader.py
-│   ├── data_processing.py
-│   ├── reporting.py
-│   └── visualization.py
-├── tests/
-├── requirements.txt
-└── README.md
---- 
-
 ## 🛠️ Instalação
 
 Certifique-se de ter o Python instalado (versão 3.8 ou superior).
