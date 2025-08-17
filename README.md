@@ -14,22 +14,18 @@ Um dashboard interativo construído com Streamlit para análise de dados de vare
 
 ## 🚀 Estrutura
 
-dataScience/
-│── data/                     # dados brutos
-│── reports/                
-│── src/                      # Código-fonte da aplicação
-│   ├── analysis.py           # Funções para análise de dados
-│   ├── data_loader.py        # Funções para carregamento de dados
-│   ├── data_processing.py    # Funções para processamento e limpeza
-│   ├── reporting.py          # Funções para o relatório de dados
-│   └── visualization.py      # Funções para geração de gráficos
-├── tests/                    # Testes unitários (test_*.py)
-│   ├── test_analysis.py         
-│── app.py                    # interface Streamlit
-│── requirements.txt          # Dependências do projeto
-│── README.md                 # Documentação
-
-
+├── app.py
+├── data/
+│   └── dataset.csv
+├── src/
+│   ├── analysis.py
+│   ├── data_loader.py
+│   ├── data_processing.py
+│   ├── reporting.py
+│   └── visualization.py
+├── tests/
+├── requirements.txt
+└── README.md
 --- 
 
 ## 🛠️ Instalação
